@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+
+.carousel-mask { background: linear-gradient(90deg, rgba(0,0,0,0.6), transparent 30%); }
+.movie-hover { transition: transform .25s ease, box-shadow .25s ease; }
+.movie-hover:hover { transform: translateY(-6px) scale(1.03); box-shadow: 0 14px 30px rgba(0,0,0,0.45); }
+
+:focus { outline: 3px solid rgba(236,72,153,0.15); outline-offset: 3px; }
